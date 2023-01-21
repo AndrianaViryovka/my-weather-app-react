@@ -19,10 +19,10 @@ export default function Weather(props) {
     setIcon(
       `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     );
-    setCity("Lviv");
+    setCity("London");
   }
 
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=lviv&appid=3a94f3778290bfeee61278505dbbe51d&units=metric`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=london&appid=3a94f3778290bfeee61278505dbbe51d&units=metric`;
   axios.get(url).then(showForecast);
 
   return (
