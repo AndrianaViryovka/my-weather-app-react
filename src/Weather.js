@@ -70,7 +70,7 @@ export default function Weather(props) {
                   °C
                 </a>
                 |
-                <a class="linkColor" href="" id="fahrenheit-link">
+                <a class="linkColor" href="/" id="fahrenheit-link">
                   °F
                 </a>
               </span>
