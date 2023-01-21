@@ -159,6 +159,16 @@ export default function Weather(props) {
           </div>
         </div>
       </div>
+      <small class="GitNetlifyLink">
+        <a
+          id="git-link"
+          href="https://github.com/AndrianaViryovka/my-weather-app-react"
+          target="_blank"
+        >
+          Open-sourced on GitHub:
+        </a>
+        , by Andriana Slobozheniuk
+      </small>
     </div>
   );
 }
