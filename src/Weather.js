@@ -163,7 +163,6 @@ export default function Weather(props) {
         <a
           id="git-link"
           href="https://github.com/AndrianaViryovka/my-weather-app-react"
-          target="_blank"
         >
           Open-sourced on GitHub:
         </a>
